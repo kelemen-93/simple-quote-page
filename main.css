@@ -1,3 +1,4 @@
+/* <div> position tracking
 .content {
   background-color: rgba(255,0,0,0.5);
 }
@@ -5,6 +6,7 @@
 .quote, .author {
   background-color: rgba(255,165,0,0.5);
 }
+*/
 
 * {
   margin: 0;
@@ -37,9 +39,13 @@ body {
   font-size: 30px;
   text-align: center;
   padding-bottom: 5%;
-  
+  font-family: "Playfair Display";
+  color: rgba(0,0,0,0.7);
 }
+
 .author {
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
+  font-family: "Indie Flower";
+  color: rgba(60,60,60,0.9)
 }
