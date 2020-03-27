@@ -1,0 +1,45 @@
+.content {
+  background-color: rgba(255,0,0,0.5);
+}
+
+.quote, .author {
+  background-color: rgba(255,165,0,0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.content {
+  width: 600px;
+  max-width: calc(100vw - 10px);
+  margin: 0 auto;
+  width: 50%;
+  padding-bottom: 35%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/lake.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; 
+}
+
+.quote {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 5%;
+  
+}
+.author {
+  font-size: 20px;
+  text-align: center;
+}
